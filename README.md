@@ -66,4 +66,6 @@ Kirimkan:
   - Penjelasan desain dan layout
   - Demo hasil akhir
 
+_Kirim Video kamu ke sini yaa..._ `https://drive.google.com/drive/folders/1PxiJVILOQLa9UYxgyQcc10Ymd6hbjdDS`
+
 > *Rekam menggunakan Loom, OBS, atau software pilihan kamu.*
