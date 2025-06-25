@@ -68,4 +68,6 @@ Kirimkan:
 
 _Kirim Video kamu ke sini yaa..._ <a href='https://drive.google.com/drive/folders/1PxiJVILOQLa9UYxgyQcc10Ymd6hbjdDS' target='_blank'>Link Pengumpulan</a>
 
+_Terakhir, konfirmasi pengiriman dan repository kamu ke email_ bikinkontenai@gmail.com
+
 > *Rekam menggunakan Loom, OBS, atau software pilihan kamu.*
