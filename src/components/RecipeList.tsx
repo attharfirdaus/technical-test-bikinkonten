@@ -41,10 +41,10 @@ export default function RecipeList({ recipes }: { recipes: Recipe[] }) {
         selectedFilter={selectedFilter}
         onFilterChange={setSelectedFilter}
       />
-      <div className="grid grid-cols-3 gap-10 justify-center w-full">
+      <div className="grid grid-cols-4 gap-10 justify-center w-full">
         {filterRecipes.map((recipe) => (
           <Link
-            href={recipe.url}
+            href={recipe.publicUrl}
             target="_blank"
             key={recipe.id}
             className="transition-all hover:scale-103 ease-in-out duration-200"

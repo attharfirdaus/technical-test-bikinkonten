@@ -6,7 +6,11 @@ export default function RecipeCard({ recipe }: { recipe: Recipe }) {
     <div className="flex flex-col rounded-lg h-[380px]">
       <div
         className="h-[320px] w-full bg-no-repeat bg-cover rounded-t-lg bg-center"
-        style={{ backgroundImage: recipe.url ? `url(${recipe.photoUrl})` : 'url(/images/no-image.jpg)'}}
+        style={{
+          backgroundImage: recipe.url
+            ? `url(${recipe.photoUrl})`
+            : "url(/images/no-image.jpg)",
+        }}
       >
         <div className="flex flex-col justify-between h-full w-full bg-linear-to-t from-black to-transparent p-4">
           <div className="flex flex-row gap-2 w-full items-center justify-start">
@@ -73,9 +77,8 @@ export default function RecipeCard({ recipe }: { recipe: Recipe }) {
             />
           </div>
           <p className="text-black font-medium text-md">4.5</p>
-          <p className="text-gray-500 font-normal text-xs">(56 reviews)</p>
         </div>
-        <Iconify icon="tabler:bookmark" size="text-[30px]" color="#F79009" />
+        <p className="text-gray-500 font-normal text-xs">(56 reviews)</p>
       </div>
     </div>
   );
